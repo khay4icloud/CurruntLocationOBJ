@@ -13,6 +13,7 @@
 		6BA2EB8B1EA688DE00E8556C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2EB891EA688DE00E8556C /* Main.storyboard */; };
 		6BA2EB8D1EA688DE00E8556C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2EB8C1EA688DE00E8556C /* Assets.xcassets */; };
 		6BA2EB901EA688DE00E8556C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2EB8E1EA688DE00E8556C /* LaunchScreen.storyboard */; };
+		6BA2EB991EA68AD600E8556C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA2EB981EA68AD600E8556C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6BA2EB8C1EA688DE00E8556C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BA2EB8F1EA688DE00E8556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BA2EB911EA688DE00E8556C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA2EB981EA68AD600E8556C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA2EB991EA68AD600E8556C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				6BA2EB7F1EA688DE00E8556C /* CurrentLoactionOBJ */,
 				6BA2EB7E1EA688DE00E8556C /* Products */,
+				6BA2EB971EA68AD600E8556C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				6BA2EB811EA688DE00E8556C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BA2EB971EA68AD600E8556C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA2EB981EA68AD600E8556C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
