@@ -90,7 +90,7 @@
     }
     
     // Stop Location Manager
-//    [locationManager stopUpdatingLocation];
+    [locationManager stopUpdatingLocation];
     
     // Reverse Geocoding
     NSLog(@"Resolving the address");
